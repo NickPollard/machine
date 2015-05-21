@@ -21,7 +21,7 @@ When running a program, the program counter begins at 0. At each step, the instr
 Your program should take a list of filenames of one or more source programs to be run as command line arguments, e.g.
 
 ```
-*./machine <sourcefile1> [sourcefile2 sourcefile3 ...]*
+./machine <sourcefile1> [sourcefile2 sourcefile3 ...]
 ```
 
 Your program should run each program in turn, *without zeroing memory between executions*, and should print the result of the final program to stdout. This allows one program to initialize memory, and the second program to then perform operations on it.
