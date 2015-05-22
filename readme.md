@@ -43,49 +43,4 @@ I0
 
 **2) Write a program that subtracts the value of cell(2) from cell(1) and stores it in cell(0). You may assume that cell(1) is strictly greater than cell(2).**
 
-	Z0
-	I0
-	I2
-	J1,2,1
-
 **3) Write a program that calculates the absolute difference between cell(2) and cell(1), regardless of which is bigger, and stores it in celll(0).**
-
-	e.g.
-	absoluteDifference(3,1) == 2
-	absoluteDifference(0,2) == 2
-	absoluteDifference(4,4) == 0
-
-	Z0
-	J1,2,6
-	Z7
-	Z8
-	I8
-	J7,8,28
-
-	Z3
-	I3
-	J3,1,7
-	Z4
-	I4
-	J4,2,10
-
-	Z5
-	Z6
-	I5
-	I3
-	I6
-	I4
-	J2,3,20
-	J7,8,22
-	J1,4,14
-	J7,8,25
-	
-	Z0
-	I0
-	J0,5,23
-	Z0
-	I0
-	J0,6,26
-	
-
-	
